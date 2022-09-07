@@ -1,0 +1,30 @@
+.data-card {
+  min-height: 350px;
+  max-height: 350px;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-container {
+  width: 75%;
+  min-height: 100px;
+  max-height: 100px;
+  background-color: #e4e6e4;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 90%;
+  max-height: 100px;
+}
+
+.title {
+  color: darkblue;
+}

@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": "Fresh Apple",
+      "date": "2022-07-26T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Second-Hand",
+      "price": 250,
+      "comment": "Second Hand Mango",
+      "date": "2022-07-23T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Test Fruit",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 10,
+      "comment": "Test Fruit",
+      "date": "2022-07-31T18:30:00.000Z",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

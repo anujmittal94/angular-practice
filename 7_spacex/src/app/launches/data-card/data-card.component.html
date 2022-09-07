@@ -1,0 +1,26 @@
+<div class="card data-card">
+  <div class="center">
+    <div class="img-container">
+      <img [src]="launch.links.flickr_images[0]" alt="No Image Available" />
+    </div>
+  </div>
+  <div>
+    <h4 class="title">{{ launch.mission_name }} #{{ launch.flight_number }}</h4>
+    <div>
+      <strong>Mission Ids:</strong>
+      <span>{{ launch.mission_id }}</span>
+    </div>
+    <div>
+      <strong>Launch Year:</strong>
+      <span>{{ launch.launch_year }}</span>
+    </div>
+    <div>
+      <strong>Successful Launch:</strong>
+      <span>{{ launch.launch_success }}</span>
+    </div>
+    <div>
+      <strong>Successful Landing:</strong>
+      <span>{{ launch.rocket.first_stage.cores[0].land_success }}</span>
+    </div>
+  </div>
+</div>

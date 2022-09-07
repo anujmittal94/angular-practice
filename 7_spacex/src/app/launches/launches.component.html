@@ -1,0 +1,9 @@
+<h1>SpaceX Launch Programs</h1>
+<div class="column first-column">
+  <app-filter-card></app-filter-card>
+</div>
+<div class="card-group column second-column">
+  <div *ngFor="let launch of launches">
+    <app-data-card [launch]="launch"></app-data-card>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+<div class="card filter-card">
+  <h3>Filters</h3>
+  <div class="filter-title">
+    Launch Year
+    <hr />
+  </div>
+  <div class="center">
+    <div class="filter-group">
+      <div *ngFor="let year of years">
+        <button
+          class="toggle"
+          (click)="launchFilter({ launch_year: year })"
+          [ngClass]="{ 'active-toggle': activeYear === year }"
+        >
+          {{ year }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter-title">
+    Successful Launch
+    <hr />
+  </div>
+  <div class="center">
+    <div class="filter-group">
+      <button
+        class="toggle"
+        (click)="launchFilter({ launch_success: true })"
+        [ngClass]="{ 'active-toggle': activeLaunch === true }"
+      >
+        True
+      </button>
+      <button
+        class="toggle"
+        (click)="launchFilter({ launch_success: false })"
+        [ngClass]="{ 'active-toggle': activeLaunch === false }"
+      >
+        False
+      </button>
+    </div>
+  </div>
+
+  <div class="filter-title">
+    Successful Landing
+    <hr />
+  </div>
+  <div class="center">
+    <div class="filter-group">
+      <button
+        class="toggle"
+        (click)="launchFilter({ land_success: true })"
+        [ngClass]="{ 'active-toggle': activeLand === true }"
+      >
+        True
+      </button>
+      <button
+        class="toggle"
+        (click)="launchFilter({ land_success: false })"
+        [ngClass]="{ 'active-toggle': activeLand === false }"
+      >
+        False
+      </button>
+    </div>
+  </div>
+</div>

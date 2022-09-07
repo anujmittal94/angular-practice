@@ -1,0 +1,32 @@
+.column {
+  width: 100%;
+}
+
+.card-group {
+  columns: 1;
+  column-gap: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .column {
+    float: left;
+  }
+
+  .first-column {
+    width: 20%;
+  }
+
+  .second-column {
+    width: 80%;
+  }
+
+  .card-group {
+    columns: 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-group {
+    columns: 4;
+  }
+}

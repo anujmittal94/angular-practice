@@ -1,0 +1,11 @@
+<p>posts works!</p>
+<button (click)="deletePost()">Delete Post 1</button>
+<button (click)="createPost()">Create Post 1</button>
+<h4>Async Pipe</h4>
+<ul *ngFor="let post of posts$ | async">
+  <li>{{ post.id }}</li>
+</ul>
+<h4>Subscription</h4>
+<ul *ngFor="let post of posts">
+  <li>{{ post.id }}</li>
+</ul>
