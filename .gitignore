@@ -56,3 +56,8 @@ baseline.json
 
 # Husky
 .husky/_
+
+# Experiment, References and Independent Project (for seperate repos)
+experiments
+references
+independent
