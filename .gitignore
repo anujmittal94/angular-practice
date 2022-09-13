@@ -59,6 +59,6 @@ baseline.json
 
 # Experiment, References and Independent Project (for seperate repos)
 experiments
-reference
+references
 independent
 .vscode
