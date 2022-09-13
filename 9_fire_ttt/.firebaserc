@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fire-ttt": {
+      "hosting": {
+        "9_fire_ttt": [
+          "fire-ttt"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fire-ttt"
+  }
+}
